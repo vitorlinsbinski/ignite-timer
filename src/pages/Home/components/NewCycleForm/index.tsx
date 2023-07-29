@@ -4,9 +4,19 @@ import { CyclesContext } from "../../../../contexts/CyclesContext";
 import { useFormContext } from "react-hook-form";
 
 export function NewCycleForm() {
-  const { activeCycle } = useContext(CyclesContext);
+  const { activeCycle, cycles } = useContext(CyclesContext);
   const { register } = useFormContext();
 
+  const uniqueTasks = new Set();
+  const cyclesTaskNotRepeated = cycles.filter((cycle) => {
+    if (!uniqueTasks.has(cycle.task)) {
+      // Se a tarefa ainda não estiver no conjunto, adicione-a ao conjunto e retorne true para mantê-la no array filtrado
+      uniqueTasks.add(cycle.task);
+      return true;
+    }
+    // Se a tarefa já estiver no conjunto, retorne false para filtrá-la do array
+    return false;
+  });
   return (
     <FormContainer>
       <label htmlFor="task">Vou trabalhar em</label>
@@ -20,10 +30,9 @@ export function NewCycleForm() {
       />
 
       <datalist id="task-suggestions">
-        <option value="Projeto 1"></option>
-        <option value="Projeto 2"></option>
-        <option value="Projeto 3"></option>
-        <option value="Abacaxi"></option>
+        {cyclesTaskNotRepeated.map((cycle) => {
+          return <option key={cycle.id} value={cycle.task}></option>;
+        })}
       </datalist>
 
       <label htmlFor="minutesAmount">durante</label>
