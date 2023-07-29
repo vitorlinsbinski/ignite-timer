@@ -322,7 +322,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`,p2="/ignite-timer/assets/logo-ignite-45e013d3.svg";function m2(){return j.jsxs(h2,{children:[j.jsx("img",{src:p2,alt:""}),j.jsxs("nav",{children:[j.jsx(jf,{to:"/",title:"Timer",children:j.jsx(hk,{size:24})}),j.jsx(jf,{to:"/history",title:"Histórico",children:j.jsx(dk,{size:24})})]})]})}const v2=Ke.div`
+`,p2="/ignite-timer/assets/logo-ignite-45e013d3.svg";function m2(){return j.jsxs(h2,{children:[j.jsx("img",{src:p2,alt:""}),j.jsxs("nav",{children:[j.jsx(jf,{to:"/ignite-timer",title:"Timer",children:j.jsx(hk,{size:24})}),j.jsx(jf,{to:"/ignite-timer/history",title:"Histórico",children:j.jsx(dk,{size:24})})]})]})}const v2=Ke.div`
   width: 100%;
   max-width: 74rem;
   height: calc(100vh - 10rem);
@@ -347,7 +347,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 420px) {
     padding: 1.5rem;
   }
-`;function y2(){return j.jsxs(v2,{children:[j.jsx(m2,{}),j.jsx(Z1,{})]})}function g2(){return j.jsx(Y1,{children:j.jsxs(ra,{path:"/ignite-timer",element:j.jsx(y2,{}),children:[j.jsx(ra,{path:"/ignite-timer",element:j.jsx(P_,{})}),j.jsx(ra,{path:"/ignite-timer/history",element:j.jsx(f2,{})})]})})}const k2=n1`
+`;function y2(){return j.jsxs(v2,{children:[j.jsx(m2,{}),j.jsx(Z1,{})]})}function g2(){return j.jsx(Y1,{children:j.jsxs(ra,{path:"/ignite-timer",element:j.jsx(y2,{}),children:[j.jsx(ra,{path:"/ignite-timer/",element:j.jsx(P_,{})}),j.jsx(ra,{path:"/ignite-timer/history",element:j.jsx(f2,{})})]})})}const k2=n1`
     * {
         margin: 0;
         padding: 0;
