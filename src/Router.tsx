@@ -8,7 +8,7 @@ export function Router() {
     <Routes>
       <Route path="/ignite-timer" element={<DefaultLayout />}>
         <Route path="/ignite-timer" element={<Home />} />
-        <Route path="/history" element={<History />} />
+        <Route path="/ignite-timer/history" element={<History />} />
       </Route>
     </Routes>
   );
