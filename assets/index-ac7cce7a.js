@@ -347,7 +347,7 @@ Error generating stack: `+o.message+`
   @media (max-width: 420px) {
     padding: 1.5rem;
   }
-`;function y2(){return j.jsxs(v2,{children:[j.jsx(m2,{}),j.jsx(Z1,{})]})}function g2(){return j.jsx(Y1,{children:j.jsxs(ra,{path:"/",element:j.jsx(y2,{}),children:[j.jsx(ra,{path:"/",element:j.jsx(P_,{})}),j.jsx(ra,{path:"/history",element:j.jsx(f2,{})})]})})}const k2=n1`
+`;function y2(){return j.jsxs(v2,{children:[j.jsx(m2,{}),j.jsx(Z1,{})]})}function g2(){return j.jsx(Y1,{children:j.jsxs(ra,{path:"/ignite-timer",element:j.jsx(y2,{}),children:[j.jsx(ra,{path:"/ignite-timer",element:j.jsx(P_,{})}),j.jsx(ra,{path:"/ignite-timer/history",element:j.jsx(f2,{})})]})})}const k2=n1`
     * {
         margin: 0;
         padding: 0;
