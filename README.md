@@ -1,5 +1,5 @@
 # ignite-timer
-A timer to control your activities built to practice some ReactJS features.
+A timer to control your activities. This project was built to practice some ReactJS features.
 
 ## Concepts learned and applied
 - States
