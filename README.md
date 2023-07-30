@@ -19,5 +19,6 @@ A timer to control your activities. This project was built to practice some Reac
 - Interrupt a cycle
 - View all your timers, including title, time duration, start date and its state
 
-(Ignite Timer Deploy)[https://vitorlinsbinski.github.io/ignite-timer/]
+[Ignite Timer Deploy](https://vitorlinsbinski.github.io/ignite-timer/)
+
 <img src = "./src/assets/screencapture-vitorlinsbinski-github-io-ignite-timer-2023-07-30-14_59_03.png"></img>
